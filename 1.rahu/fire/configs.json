@@ -1,0 +1,16 @@
+{
+  "base_url": "https://firms.modaps.eosdis.nasa.gov/data/country/zips/modis_",
+  "url_suffix": "_all_countries.zip",
+  "years": {
+    "start": 2000,
+    "end": 2024
+  },
+  "directories": {
+    "data_root": "data",
+    "fire_data": "data/fire",
+    "temp_extract": "data/temp"
+  },
+  "target_country": "India",
+  "file_pattern": "modis_{year}_{country}.csv",
+  "cleanup_temp": true
+}
