@@ -7,10 +7,11 @@
   },
   "directories": {
     "data_root": "data",
-    "fire_data": "data/fire",
+    "fire_data": "data/fire/raw",
     "temp_extract": "data/temp"
   },
   "target_country": "India",
   "file_pattern": "modis_{year}_{country}.csv",
   "cleanup_temp": true
 }
+
